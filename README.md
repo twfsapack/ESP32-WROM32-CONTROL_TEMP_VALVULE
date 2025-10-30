@@ -47,6 +47,7 @@ Ver [CHANGELOG.md](CHANGELOG.md) para detalles completos de los cambios.
 - `CHANGELOG.md` - Registro detallado de cambios v2.0.0
 - `BOM.md` - Lista completa de materiales con especificaciones técnicas
 - `SHOPPING_LIST.md` - Lista de compra rápida imprimible
+- `WIRING_DIAGRAM.md` - Diagrama completo de conexiones y montaje
 
 ### Diagramas y Recursos
 - `diagram_valves.pdf` - Diagrama de conexiones completo
@@ -65,6 +66,26 @@ Ver [CHANGELOG.md](CHANGELOG.md) para detalles completos de los cambios.
 - **[SHOPPING_LIST.md](SHOPPING_LIST.md)** - Lista de compra rápida imprimible para llevar al proveedor
 
 **Costo total estimado: ~$184 USD** (componentes + estructura)
+
+---
+
+## 🔌 Diagrama de Conexiones
+
+**[WIRING_DIAGRAM.md](WIRING_DIAGRAM.md)** - Guía completa de montaje del prototipo
+
+Incluye:
+- ✅ Diagrama general del sistema
+- ✅ Tabla maestra de conexiones pin por pin (ESP32)
+- ✅ 8 subsistemas detallados con esquemáticos
+- ✅ Conexiones de todos los componentes (DS18B20, OLED, botones, LEDs, SSR, válvulas)
+- ✅ Circuitos MOC3021 + TRIAC + electroválvulas (⚠️ 220V AC)
+- ✅ Especificaciones técnicas y pinouts
+- ✅ Guía paso a paso de montaje (6 horas estimadas)
+- ✅ Checklist de seguridad para 220V AC
+- ✅ Solución de problemas comunes
+- ✅ Layout recomendado de PCB
+
+**⚠️ ADVERTENCIA:** El sistema maneja voltajes MORTALES de 220V AC. Extrema precaución requerida.
 
 ---
 
