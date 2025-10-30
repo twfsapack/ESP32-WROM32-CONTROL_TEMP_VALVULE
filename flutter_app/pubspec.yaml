@@ -20,6 +20,9 @@ dependencies:
   # Iconos
   cupertino_icons: ^1.0.2
 
+  # Gráficos
+  fl_chart: ^0.66.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
