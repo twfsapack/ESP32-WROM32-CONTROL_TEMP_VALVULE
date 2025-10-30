@@ -35,15 +35,38 @@
 
 Ver [CHANGELOG.md](CHANGELOG.md) para detalles completos de los cambios.
 
-## Contenido del repositorio
+## 📁 Contenido del repositorio
 
+### Código Fuente
 - `ESP32_Temp_Control_Valves_BT.ino` - Firmware ESP32 completo (Bluetooth, DS18B20, OLED, 7 válvulas, menús y LEDs)
 - `lib_main.dart` - Código fuente de la app Flutter
 - `pubspec.yaml` - Dependencias Flutter
-- `CHANGELOG.md` - Registro detallado de cambios
-- `diagram_valves.pdf` - Diagrama de conexiones
-- `screen_*.png` - Mockups de la aplicación
+
+### Documentación
+- `README.md` - Este archivo (descripción general)
+- `CHANGELOG.md` - Registro detallado de cambios v2.0.0
+- `BOM.md` - Lista completa de materiales con especificaciones técnicas
+- `SHOPPING_LIST.md` - Lista de compra rápida imprimible
+
+### Diagramas y Recursos
+- `diagram_valves.pdf` - Diagrama de conexiones completo
+- `screen_*.png` - Mockups de la aplicación móvil
+- `ChatGPT Image...png` - Esquema visual del sistema
+- `app_icon_tecnoworldfuture.png` - Icono de la empresa
+
+### Legal
 - `LICENSE` - Licencia MIT
+
+## 🛒 Lista de Materiales
+
+¿Listo para construir el sistema? Consulta:
+
+- **[BOM.md](BOM.md)** - Lista de materiales completa con especificaciones técnicas, proveedores y costos estimados
+- **[SHOPPING_LIST.md](SHOPPING_LIST.md)** - Lista de compra rápida imprimible para llevar al proveedor
+
+**Costo total estimado: ~$184 USD** (componentes + estructura)
+
+---
 
 ## 🚀 Instalación rápida
 
