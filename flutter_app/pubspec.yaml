@@ -1,0 +1,43 @@
+name: twf_esp32_control
+description: Sistema de control de temperatura y electroválvulas para ESP32 v2.0.0
+publish_to: 'none'
+
+version: 2.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Bluetooth
+  flutter_bluetooth_serial: ^0.4.0
+
+  # Permisos
+  permission_handler: ^11.0.1
+
+  # Iconos
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  # Fonts (opcional, descomenta si quieres usar fuentes personalizadas)
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: assets/fonts/Roboto-Regular.ttf
+  #       - asset: assets/fonts/Roboto-Bold.ttf
+  #         weight: 700
