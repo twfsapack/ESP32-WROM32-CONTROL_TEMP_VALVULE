@@ -89,7 +89,88 @@ Incluye:
 
 ---
 
-## 🚀 Instalación rápida
+## 🚀 Deployment y Producción
+
+**Nueva en v2.0.0:** Guía completa de deployment y scripts automatizados
+
+### Documentación de Deployment
+
+- **[DEPLOYMENT.md](DEPLOYMENT.md)** - Guía completa de deployment (450+ líneas)
+  - 📋 Requisitos previos (hardware y software)
+  - 🛠️ Instalación de herramientas paso a paso
+  - 📤 Deployment del firmware ESP32
+  - 📱 Deployment de la app Flutter
+  - ⚙️ Configuración inicial del sistema
+  - ✅ Testing y verificación (5 tests completos)
+  - 🐛 Troubleshooting exhaustivo
+  - 🔄 Mantenimiento preventivo
+
+- **[RELEASE_NOTES.md](RELEASE_NOTES.md)** - Release Notes v2.0.0
+  - 🎉 Nuevas funcionalidades
+  - 🐛 Correcciones críticas
+  - ⚡ Mejoras de performance
+  - 🔒 Mejoras de seguridad
+  - 📊 Métricas de calidad
+  - 🔮 Roadmap futuro
+
+### Scripts Automatizados
+
+#### Firmware ESP32
+```bash
+chmod +x setup_esp32.sh
+./setup_esp32.sh
+```
+- ✅ Instala arduino-cli automáticamente
+- ✅ Configura soporte para ESP32
+- ✅ Instala librerías necesarias
+- ✅ Detecta puerto del ESP32
+- ✅ Compila y carga firmware
+- ✅ Opción de Serial Monitor
+
+#### App Flutter
+```bash
+cd flutter_app
+chmod +x build_flutter.sh
+./build_flutter.sh
+```
+- ✅ Verifica instalación de Flutter
+- ✅ Instala dependencias
+- ✅ Opciones de build (Debug/Release/Bundle)
+- ✅ Instalación directa en dispositivo
+- ✅ Genera APK con versión
+
+### Archivo de Configuración
+
+- **[config.production.h](config.production.h)** - Configuración de producción
+  - Todas las constantes configurables en un solo lugar
+  - Documentación inline de cada parámetro
+  - Validaciones de seguridad
+  - Optimizaciones de performance
+
+### Instalación Rápida con Scripts
+
+**Opción 1: Deployment Automatizado (Recomendado)**
+
+```bash
+# Clonar repositorio
+git clone https://github.com/twfsapack/ESP32-WROM32-CONTROL_TEMP_VALVULE.git
+cd ESP32-WROM32-CONTROL_TEMP_VALVULE
+
+# Deploy firmware
+chmod +x setup_esp32.sh
+./setup_esp32.sh
+
+# Build app Flutter
+cd flutter_app
+chmod +x build_flutter.sh
+./build_flutter.sh
+```
+
+**Opción 2: Manual** (Ver abajo en "Instalación rápida")
+
+---
+
+## 🚀 Instalación rápida (Manual)
 
 ### Firmware (ESP32)
 1. Abre `ESP32_Temp_Control_Valves_BT.ino` en Arduino IDE
